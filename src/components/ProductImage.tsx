@@ -12,7 +12,7 @@ interface Props {
 export const ProductImage = ({ img, className }: Props) => {
   const { product } = useContext(ProductContext);
 
-  let imgToShow = img ? img : product.img;
+  let imgToShow = img ? img : product?.img;
 
   return (
     <img

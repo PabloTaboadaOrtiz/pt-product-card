@@ -20,7 +20,7 @@ export interface Props {
   style?: CSSProperties;
   onChange?: (args: onChangeArs) => void;
   value?: number;
-  initialValues: InitialValues;
+  initialValues?: InitialValues;
 }
 
 export const ProductCard = ({
